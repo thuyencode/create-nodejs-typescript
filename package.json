@@ -1,0 +1,23 @@
+{
+  "name": "create-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "A simple template to start a NodeJS and TypeScript project",
+  "main": "src/index.ts\t",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuyencode/create-nodejs-typescript.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Thuyen Code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuyencode/create-nodejs-typescript/issues"
+  },
+  "homepage": "https://github.com/thuyencode/create-nodejs-typescript#readme"
+}
