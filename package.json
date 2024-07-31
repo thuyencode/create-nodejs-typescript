@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple template to start a NodeJS and TypeScript project",
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "build": "esbuild src/index.ts --bundle --minify --platform=node --outfile=dist/index.js --format=esm",
     "dev": "tsx watch --env-file=.env.development.local src/index.ts",
