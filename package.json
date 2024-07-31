@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --minify --platform=node --outfile=dist/index.js --format=esm",
+    "build": "esbuild src/index.ts --bundle --minify --packages=external --platform=node --outfile=dist/index.js --format=esm",
     "dev": "tsx watch --env-file=.env.development.local src/index.ts",
     "start": "node --env-file=.env.production dist/index.js",
     "lint": "tsc ; eslint ./src"
